@@ -48,6 +48,13 @@ The Q1 of all boxplots is 0. However, Q3 shows the back row up at 12, and the fr
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The number 0.0001 inclines me to reject the null hypothesis. This is because 0.0001 shows that the chances of getting these results is far too low if nothing was happening. 
+
 ## Conclusions
 
 

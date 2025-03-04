@@ -28,6 +28,7 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 basicCN + geom_boxplot()
 ```
   
+  We have three boxplots. The first boxplot, representing the back row, has a median that seems to land at 5. Comparing this to the box representing the front row, we can see that the median of the back row is higher than the third quirtile than the front. A similar thing is true about the boxplot representing the middle row. This omplies that there is a difference in the amount of people/drinks that are in the back, front and middle row. 
   
 ### get fancy  
 

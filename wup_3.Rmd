@@ -40,6 +40,12 @@ The "bites" on the sides of the boxes represent standard deviation within those 
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The Q1 of all boxplots is 0. However, Q3 shows the back row up at 12, and the front and middle rows at 2 and 4. There are 36 people sitting in the back row, which is less than both front and middle rows. The middle row has the most people in it at 89. This   
+
 ## Inferential Tests
 
 ## Conclusions

@@ -57,4 +57,10 @@ The number 0.0001 inclines me to reject the null hypothesis. This is because 0.0
 
 ## Conclusions
 
+```{r}
+#we specify the margins starting at the bottom and proceeding clockwise - thus 8.7 is the left side margin to hold the names of the factors
+par(mar = c(3, 8.7, 2, 2))
+plot(TukeyHSD(model1),las=2)
+```
 
+0 is in the confidence interval of the difference between the middle and the front. This means that the middle and the back are different, and the front and the back are different. However, the front and the middle are not different. 
